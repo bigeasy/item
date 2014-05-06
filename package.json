@@ -1,0 +1,34 @@
+{
+    "name":             "item",
+    "version":          "9.9.9",
+    "author":           "Alan Gutierrez <alan@prettyrobots.com>",
+    "description":      "Command line interface to itemize.",
+    "keywords":
+    [
+    ],
+    "contributors":     [],
+    "homepage":         "https://github.com/bigeasy/item",
+    "bugs":             "https://github.com/bigeasy/item/issues",
+    "licenses":
+    [{
+                        "type": "MIT",
+                        "url": "http://github.com/bigeasy/item/raw/master/LICENSE"
+    }],
+    "repository":
+    {
+                        "type": "git",
+                        "url": "http://github.com/bigeasy/item.git"
+    },
+    "dependencies":
+    {
+                        "arguable":         "0.0.16"
+    },
+    "devDependencies":
+    {
+                        "proof":            "0.0.45"
+    },
+    "scripts":
+    {
+                        "test": "proof platform win32 && proof test */*/*.t.js || t/test"
+    }
+}

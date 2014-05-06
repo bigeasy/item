@@ -1,0 +1,17 @@
+Item
+
+Command line interface to itemize.
+
+    Discussion:     http://github.com/bigeasy/item/issues/1
+
+    Documentation:  http://bigeasy.github.io/item
+    Source:         http://github.com/bigeasy/item
+    Issues:         http://github.com/bigeasy/item/issues
+
+    Install:        `npm install item`
+
+    License:        MIT
+
+To learn everything you want to know about Item start here:
+
+    http://bigeasy.github.io/item
